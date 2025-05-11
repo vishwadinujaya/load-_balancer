@@ -1,0 +1,63 @@
+/* Left Aligned Program Section Styles */
+.program-section {
+  padding: 30px 0; /* Adjusted padding */
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+}
+
+.container {
+  max-width: 700px; /* Adjusted max width */
+  margin: 0 auto;
+  padding: 0 10px; /* Adjusted padding */
+}
+
+.programs-content {
+  display: flex; /* Use flexbox for program cards */
+  flex-direction: row; /* Align cards in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  gap: 20px; /* Increased gap for more space between programs */
+}
+
+.program {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for program cards */
+  border-radius: 8px; /* Adjusted border radius */
+  padding: 10px; /* Increased padding */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  flex: 0 1 calc(30% - 20px); /* Allow cards to take up 30% of the width with space for gap */
+}
+
+.program:hover {
+  transform: translateY(-3px); /* Hover effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Adjusted border radius */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption img {
+  width: 20px; /* Adjusted icon size */
+  height: 20px; /* Adjusted icon size */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption p {
+  font-size: 16px; /* Increased font size */
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .programs-content {
+    flex-direction: column; /* Stack cards vertically on small screens */
+  }
+}

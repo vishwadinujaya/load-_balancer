@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin-right: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background-color: rgb(236, 236, 238);
+  background-image: url('./assets/Banner-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration:none ;
+  color: #000;
+  line-height: inherit;
+  cursor: pointer;
+}
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btn{
+  padding: 20px 30px; /* Increased padding for larger button size */
+  font-size: 28px; /* Increased font size for better visibility */
+  background:#fff ;
+  color: #212121;
+  font-size: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+
+}
+.btn.dark-btn{
+  background: #212EA0;
+  color: #fff;
+}
+/*------ media query -----*/
+@media (max-width: 2200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+

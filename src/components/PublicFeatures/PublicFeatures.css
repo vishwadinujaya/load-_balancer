@@ -1,0 +1,72 @@
+.project-introduction, .system-architecture, .live-stats-preview {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.system-architecture {
+  background-color: #e9ecef;
+}
+
+.project-introduction h2,
+.system-architecture h2,
+.live-stats-preview h2 {
+  margin-bottom: 1rem;
+  color: #00d9ff;
+  font-size: 3.5rem; /* Increased font size for better readability */
+  font-weight: 700; /* Bold font weight */
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 217, 255, 0.7);
+}
+
+.project-introduction p,
+.system-architecture p,
+.live-stats-preview p {
+  font-size: 1.125rem; /* Increased font size for better readability */
+  line-height: 1.5;
+  color: #555;
+}
+
+.system-architecture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.live-3d-ship-view {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.live-3d-ship-view h2 {
+  margin-bottom: 0.5rem;
+  color: #00d9ff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 217, 255, 0.7);
+}
+
+.live-3d-ship-view {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 217, 255, 0.4);
+  color: #cce7ff;
+  border: 1px solid #00d9ff;
+}
+
+.live-3d-ship-view p.subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #a0cfff;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}

@@ -1,0 +1,139 @@
+/* Extra Large Auth Gateway Styling */
+.auth-gateway {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    url('../../assets/Banner-1.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.auth-form-container {
+  max-width: 800px; /* Extra wide container */
+  width: 90%;
+  background: rgba(255, 255, 255, 0.98); /* Solid white background */
+  border-radius: 20px; /* Larger rounded corners */
+  padding: 5rem; /* More padding */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+}
+
+.auth-prompt {
+  text-align: center;
+  margin-bottom: 4rem; /* More spacing */
+}
+
+.auth-prompt h2 {
+  color: #ffffff; /* Light color for better contrast */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+  font-size: 4rem; /* Very large heading */
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.auth-prompt p {
+  color: #ffffff; /* Light color for better contrast */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Shadow for readability */
+  font-size: 2.5rem; /* Very large text */
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center; /* Center tabs */
+  margin-bottom: 3rem; /* More spacing */
+  border-bottom: 3px solid #eaeaea; /* Thicker border */
+  gap: 1.5rem; /* More spacing between tabs */
+}
+
+.tabs button {
+  min-width: 250px; /* Very wide tabs */
+  padding: 2rem 1.5rem; /* More padding */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #ffffff; /* Light color for better contrast */
+  font-size: 2rem; /* Very large tab text */
+  transition: all 0.2s ease;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Shadow for readability */
+}
+
+.tabs button.active {
+  color: #ffcc00; /* Highlight color for active tab */
+}
+
+.auth-form input {
+  width: 100%;
+  max-width: 600px; /* Extra wide inputs */
+  padding: 2rem; /* More padding */
+  margin: 0 auto 3rem; /* More spacing */
+  border: 3px solid #eaeaea; /* Thicker border */
+  border-radius: 12px; /* Larger rounded corners */
+  font-size: 1.8rem; /* Very large input text */
+  transition: all 0.2s ease;
+  display: block;
+  color: #333; /* Dark color for input text */
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.1); /* Larger focus shadow */
+}
+
+.auth-form button[type="submit"] {
+  width: 100%;
+  max-width: 600px; /* Extra wide button */
+  background-color: #2563eb;
+  color: white; /* Light color for button text */
+  padding: 2rem; /* More padding */
+  border: none;
+  border-radius: 12px; /* Larger rounded corners */
+  font-size: 2rem; /* Very large button text */
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 2rem auto 0; /* More spacing */
+  display: block;
+}
+
+.auth-form button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 1.5rem; /* Larger error text */
+  margin: -2rem 0 3rem 0; /* More spacing */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .auth-form-container {
+    padding: 4rem;
+  }
+  
+  .auth-prompt h2 {
+    font-size: 3rem;
+  }
+  
+  .auth-prompt p {
+    font-size: 2rem;
+  }
+  
+  .tabs button {
+    min-width: 180px;
+    font-size: 1.5rem;
+  }
+  
+  .auth-form input,
+  .auth-form button[type="submit"] {
+    max-width: 100%;
+  }
+}

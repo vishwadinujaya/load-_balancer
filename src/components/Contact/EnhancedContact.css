@@ -1,0 +1,65 @@
+/* Enhanced Contact Section Styles */
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    position: relative;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0) 50%
+    );
+    transform: rotate(30deg);
+    z-index: 0;
+    backdrop-filter: blur(5px);
+}
+
+.contact-info-col,
+.contact-form-col {
+    position: relative;
+    z-index: 1;
+    padding: 2.5rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.contact-info-col {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info-col h3 {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+/* Rest of the enhanced styles would continue here */

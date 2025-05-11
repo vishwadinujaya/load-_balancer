@@ -1,0 +1,61 @@
+/* Compact Program Section */
+.program-section {
+  padding: 20px 0; /* Further reduced padding */
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 600px; /* Further reduced max width */
+  margin: 0 auto;
+  padding: 0 10px; /* Reduced padding */
+}
+
+.programs-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller cards */
+  gap: 5px; /* Further reduced gap */
+}
+
+.program {
+  background: white;
+  border-radius: 6px; /* Reduced border radius */
+  padding: 5px; /* Further reduced padding */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.program:hover {
+  transform: translateY(-2px); /* Reduced hover effect */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Reduced border radius */
+  margin-bottom: 3px; /* Further reduced margin */
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption img {
+  width: 15px; /* Further reduced icon size */
+  height: 15px; /* Further reduced icon size */
+  margin-bottom: 3px; /* Reduced margin */
+}
+
+.caption p {
+  font-size: 12px; /* Further reduced font size */
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .programs-content {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}

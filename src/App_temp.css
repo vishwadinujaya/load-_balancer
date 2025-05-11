@@ -1,0 +1,10 @@
+/* App Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url('./assets/2000x2000_148890_Foreship-11-v3.png') center/cover no-repeat fixed;
+  min-height: 100vh;
+  color: #2c3e50;
+}

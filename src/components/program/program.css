@@ -1,0 +1,73 @@
+/* Left Aligned Program Section Styles */
+.program-section {
+  padding: 100px 0; /* Increased vertical padding for larger section */
+  background-color: rgba(255, 255, 255, 0); /* Transparent background */
+}
+
+.container {
+  max-width: 1800px; /* Increased max width for larger container */
+  margin: 0 auto;
+  padding: 0 10px; /* Adjusted padding */
+}
+
+.programs-content {
+  display: flex; /* Use flexbox for program cards */
+  flex-direction: row; /* Align cards in a row */
+  flex-wrap: nowrap; /* Prevent wrapping to keep cards in one line */
+  gap: 20px; /* Increased gap for more space between programs */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.program {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for program cards */
+  border-radius: 8px; /* Adjusted border radius */
+  padding: 10px; /* Increased padding */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  flex: 0 0 calc(45% - 20px); /* Fixed width cards, no shrinking */
+  min-width: 300px; /* Ensure minimum width */
+}
+
+.program:hover {
+  transform: translateY(-3px); /* Hover effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Adjusted border radius */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption {
+  display: flex; /* Center content */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.caption img {
+  width: 40px; /* Increased icon size */
+  height: 40px; /* Increased icon size */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption p {
+  font-size: 32px; /* Increased font size */
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+  background-color: rgba(0, 0, 0, 0.1); /* Added background for better visualization */
+  padding: 5px 10px; /* Added padding */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .programs-content {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+  }
+}

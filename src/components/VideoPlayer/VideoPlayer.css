@@ -1,0 +1,89 @@
+:root {
+  --video-border-color: #666;
+  --video-shadow-color: rgba(0, 0, 0, 0.15);
+  --video-border-radius: 10px;
+  --video-transition-duration: 0.3s;
+  --video-play-button-size: 110px;
+  --video-play-button-bg: rgba(255, 255, 255, 0.85);
+  --video-play-button-hover-bg: rgba(255, 255, 255, 1);
+  --video-play-button-shadow: rgba(0, 0, 0, 0.2);
+  --video-play-icon-color: #222;
+  --video-play-icon-hover-color: #000;
+}
+
+.video-container {
+  width: 1200px;
+  height: 675px; /* 16:9 aspect ratio */
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--video-border-color);
+  box-shadow: 0 6px 12px var(--video-shadow-color);
+  background: var(--video-bg-color, #f0f2f5);
+  transition: box-shadow var(--video-transition-duration) ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--video-border-radius);
+}
+
+.video-container:hover {
+  box-shadow: 0 8px 16px var(--video-shadow-color);
+}
+
+.video-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: var(--video-border-radius);
+  box-shadow: none;
+  transition: filter 0.3s ease;
+  background: transparent;
+}
+
+.video-wrapper video:focus,
+.video-wrapper video:hover {
+  filter: none;
+  outline: none;
+}
+
+.play-button {
+  width: var(--video-play-button-size);
+  height: var(--video-play-button-size);
+  background: var(--video-play-button-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px var(--video-play-button-shadow);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.play-button:hover {
+  background: var(--video-play-button-hover-bg);
+  box-shadow: 0 6px 18px var(--video-play-button-shadow);
+}
+
+.play-button svg {
+  width: 50px;
+  height: 50px;
+  fill: var(--video-play-icon-color);
+  transition: fill 0.3s ease;
+}
+
+.play-button:hover svg {
+  fill: var(--video-play-icon-hover-color);
+}

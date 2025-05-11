@@ -1,0 +1,23 @@
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/hero-bg.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.hero-button {
+  padding: 12px 30px;
+  background: #212EA0;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.hero-button:hover {
+  background: #1a237e;
+}

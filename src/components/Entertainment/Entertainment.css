@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --background-color: #f5f7fa;
+  --text-color: #2c3e50;
+  --border-color: #d1d5db;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.entertainment-section {
+  width: 100%;
+  padding: 5rem 3rem;
+  background: transparent;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.entertainment-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.entertainment-section h2 {
+  font-size: 2rem;
+  
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.entertainment-section p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin-top: 1rem;
+  line-height: 1.6;
+  color:black;
+}
+
+.play-button {
+  width: 90px;
+  height: 90px;
+  background: var(--play-button-bg, #ecf0f1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background: var(--play-button-hover-bg, #bdc3c7);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.play-button svg {
+  width: 40px;
+  height: 40px;
+  fill: #333;
+  transition: fill 0.3s ease;
+}
+
+.play-button:hover svg {
+  fill: #111;
+}

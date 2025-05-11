@@ -1,0 +1,79 @@
+/* Program Section with Hover Details */
+.program-section {
+  padding: 40px 0; /* Increased padding */
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 800px; /* Adjusted max width */
+  margin: 0 auto;
+  padding: 0 20px; /* Increased padding */
+}
+
+.programs-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Larger cards */
+  gap: 15px; /* Adjusted gap */
+}
+
+.program {
+  background: white;
+  border-radius: 8px; /* Adjusted border radius */
+  padding: 15px; /* Increased padding */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  position: relative; /* For absolute positioning of details */
+}
+
+.program:hover {
+  transform: translateY(-3px); /* Hover effect */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Adjusted border radius */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption img {
+  width: 20px; /* Adjusted icon size */
+  height: 20px; /* Adjusted icon size */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+.caption p {
+  font-size: 14px; /* Adjusted font size */
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Details section */
+.details {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 10px; /* Positioning above the card */
+  left: 10px; /* Positioning from the left */
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+.program:hover .details {
+  display: block; /* Show details on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .programs-content {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
