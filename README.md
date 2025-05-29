@@ -1,16 +1,41 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚢 Load Balancer System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Ship Load Balancing System** built using **React + Vite**. It helps manage and visualize cargo container placement on a ship to ensure weight is distributed evenly for better balance and safety.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Project Features
 
-## Expanding the ESLint configuration
+- ⚓ Real-time cargo visualization
+- ⚙️ Smart container placement logic
+- 📊 Dashboard for monitoring weight and balance
+- 🚀 Built with React + Vite for fast performance
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# load-_balancer
->>>>>>> f27ae9d9422fd03c3003e8b2d7403b7514de490c
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Description                              |
+|--------------|------------------------------------------|
+| React        | Frontend framework                       |
+| Vite         | Fast dev server and build tool           |
+| Firebase     | (Optional) Real-time data & authentication |
+| Babylon.js   | 3D visualization of ship and containers  |
+| GitHub       | Version control & collaboration          |
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/vishwadinujaya/load-_balancer.git
+
+# Move into the project folder
+cd load-_balancer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
