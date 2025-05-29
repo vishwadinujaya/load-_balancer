@@ -9,6 +9,8 @@ This is a **Ship Load Balancing System** built using **React + Vite**. It helps 
 - ⚓ Real-time cargo visualization
 - ⚙️ Smart container placement logic
 - 📊 Dashboard for monitoring weight and balance
+- dashboard login user_name-vishwadinujaya60@gmail.com
+-                 password-amma@1970
 - 🚀 Built with React + Vite for fast performance
 
 ---
