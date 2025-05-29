@@ -39,8 +39,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_1} alt="User 1" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Captain John Smith</h3>
-                      <span className="user-title">Maritime Safety Officer, UK</span>
+                      <h3 className="user-name">Tainy Godakanda</h3>
+                      <span className="user-title">Maritime Safety Officer</span>
                     </div>
                   </div>
                   <p className="testimonial-text">Our load balancing system reduced fuel consumption by 15% across our fleet by optimizing cargo distribution. The automated calculations prevent human error in weight distribution planning.</p>
@@ -51,8 +51,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_2} alt="User 2" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Maria Gonzalez</h3>
-                      <span className="user-title">Port Operations Manager, Spain</span>
+                      <h3 className="user-name">Ashan Deemantha</h3>
+                      <span className="user-title">Port Operations Manager</span>
                     </div>
                   </div>
                   <p className="testimonial-text">Implementation of this system decreased loading time by 30% while improving safety compliance. The visual interface helps our teams understand optimal cargo placement quickly.</p>
@@ -63,8 +63,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_3} alt="User 3" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Li Wei</h3>
-                      <span className="user-title">Shipping Logistics Director, China</span>
+                      <h3 className="user-name">Nisal Lakshan</h3>
+                      <span className="user-title">Shipping Logistics Director</span>
                     </div>
                   </div>
                   <p className="testimonial-text">During typhoon season, the system's dynamic load adjustment feature has prevented 3 potential stability incidents. The real-time monitoring is invaluable for rough weather conditions.</p>
@@ -75,8 +75,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_4} alt="User 4" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">David Wilson</h3>
-                      <span className="user-title">Naval Architect, USA</span>
+                      <h3 className="user-name">Imesh lakshan</h3>
+                      <span className="user-title">Naval Architect</span>
                     </div>
                   </div>
                   <p className="testimonial-text">The system's algorithms account for 27 different stability parameters, exceeding IMO requirements. We've integrated it with our ship design process for optimal hull performance.</p>
@@ -87,8 +87,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_5} alt="User 5" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Sarah Johnson</h3>
-                      <span className="user-title">Fleet Manager, Canada</span>
+                      <h3 className="user-name">Thilina Lakshan</h3>
+                      <span className="user-title">Fleet Manager</span>
                     </div>
                   </div>
                   <p className="testimonial-text">The automated reporting features have saved us hundreds of hours in compliance documentation. The system generates all required stability reports with a single click.</p>
@@ -99,8 +99,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_6} alt="User 6" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Michael Brown</h3>
-                      <span className="user-title">Chief Engineer, Australia</span>
+                      <h3 className="user-name">Araliya Thshmila</h3>
+                      <span className="user-title">Chief Engineer</span>
                     </div>
                   </div>
                   <p className="testimonial-text">Integration with our existing systems was seamless. The API allows real-time data exchange with our cargo management and voyage planning systems.</p>
@@ -111,8 +111,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_7} alt="User 7" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">Emma Wilson</h3>
-                      <span className="user-title">Operations Director, Norway</span>
+                      <h3 className="user-name">Surj Kulathunga</h3>
+                      <span className="user-title">Operations Director</span>
                     </div>
                   </div>
                   <p className="testimonial-text">The predictive analytics module has helped us anticipate stability issues before they occur, reducing corrective actions by 40%.</p>
@@ -123,8 +123,8 @@ const System = () => {
                   <div className="user-info">
                     <img src={user_8} alt="User 8" className="user-avatar"/>
                     <div>
-                      <h3 className="user-name">James Lee</h3>
-                      <span className="user-title">Technical Superintendent, Singapore</span>
+                      <h3 className="user-name">Rohini Cooray</h3>
+                      <span className="user-title">Technical Superintendent</span>
                     </div>
                   </div>
                   <p className="testimonial-text">Customizable dashboards provide each department with exactly the stability metrics they need, improving cross-team communication.</p>

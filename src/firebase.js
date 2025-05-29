@@ -1,16 +1,18 @@
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCOstOYSi2RLUJAKpy3Gshi03aMXVHf0lQ",
-  authDomain: "load-balancer-5d41d.firebaseapp.com",
-  databaseURL: "https://load-balancer-5d41d-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "load-balancer-5d41d",
-  storageBucket: "load-balancer-5d41d.appspot.com",
-  messagingSenderId: "220555842095",
-  appId: "1:220555842095:web:e0287141f6cfd56c82ecda",
-  measurementId: "G-2CDPRXXLGZ"
+  apiKey: "AIzaSyDVgNwDoJRJCqJNskAn2YE5PRye4N8LnSU",
+  authDomain: "slbs-new.firebaseapp.com",
+  databaseURL: "https://slbs-new-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "slbs-new",
+  storageBucket: "slbs-new.firebasestorage.app",
+  messagingSenderId: "998867849008",
+  appId: "1:998867849008:web:420238297a5073a57482f5",
+  measurementId: "G-EX2J9MSR40"
 };
 
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 export default app;

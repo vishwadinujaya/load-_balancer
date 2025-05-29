@@ -13,10 +13,10 @@ function Chatbot() {
 
   // Hardcoded Q&A for common questions
   const hardcodedQA = {
-    "tell me about this system": "Our load balancing system is a maritime solution that provides real-time stability monitoring, automated weight distribution, safety compliance verification, and fuel efficiency optimization.",
-    "how does the system safty works?": "The system verifies safety compliance by continuously monitoring cargo distribution and ship stability to prevent unsafe conditions.",
-    "who developed the system": "The system was developed by industry experts with over 35 years of maritime experience.",
-    "what are the key features": "Key features include real-time load monitoring, automated weight distribution, safety compliance verification, and fuel efficiency optimization."
+    "whast is this": "Our load balancing system is a maritime solution that provides real-time stability monitoring, automated weight distribution, safety compliance verification, and fuel efficiency optimization.",
+    "how does system safty work": "The system verifies safety compliance by continuously monitoring cargo distribution and ship stability to prevent unsafe conditions.",
+    "who developed the system": "The system was developed by delkandura A silva,who is undgraduate computer science student.",
+    "key features": "Key features include real-time load monitoring, automated weight distribution, safety compliance verification, and fuel efficiency optimization."
   };
 
   useEffect(() => {

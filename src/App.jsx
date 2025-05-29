@@ -16,7 +16,8 @@ import Chatbot from "./components/Chatbot";
 import AuthGateway from "./components/AuthSystem/AuthGateway";
 
 import ProjectIntroduction from './components/PublicFeatures/ProjectIntroduction';
-import SystemArchitectureDiagram from './components/PublicFeatures/SystemArchitectureDiagram';
+import PaymentMethod from './components/PaymentMethod';
+// Removed import of SystemArchitectureDiagram to fix import error
 import LiveStatsPreview from './components/PublicFeatures/LiveStatsPreview';
 import Live3DShipView from './components/PublicFeatures/Live3DShipView';
 import LoginLink from './components/PublicFeatures/LoginLink';
@@ -88,8 +89,7 @@ function App() {
             <>
               <Hero id="home" />
               <ProjectIntroduction />
-              <SystemArchitectureDiagram />
-        
+              {/* SystemArchitectureDiagram component usage removed */}
               <Live3DShipView />
               {/* <LoginLink /> */}
               <Title subTitle='Our Program' title='What We Offer'/>
@@ -108,6 +108,7 @@ function App() {
               <Chatbot />
             </>
           } />
+          <Route path="/payment" element={<PaymentMethod />} />
         </Routes>
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/>

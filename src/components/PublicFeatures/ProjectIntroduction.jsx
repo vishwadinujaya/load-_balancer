@@ -51,10 +51,25 @@ const ProjectIntroduction = () => {
           <p style={{fontSize: '1.25rem'}}>Each container’s weight is collected using physical sensors and microcontrollers, then transmitted to the cloud via Wi-Fi modules.</p>
         </div>
       </div>
-
-      <div style={{marginTop: '3rem', textAlign: 'center'}}>
-        <img src={systemDiagram} alt="System Flow Diagram" style={{maxWidth: '100%', height: 'auto', border: '1px solid #334155', borderRadius: '10px'}} />
-        <p style={{fontSize: '1rem', color: '#94a3b8', marginTop: '0.5rem'}}>System Overview: IoT → Firebase → Dashboard + 3D Model</p>
+      <div style={{marginTop: '2rem'}}>
+        <button
+          onClick={() => window.location.href = '/payment'}
+          style={{
+            padding: '0.75rem 1.5rem',
+            fontSize: '1.25rem',
+            backgroundColor: '#38bdf8',
+            color: 'white',
+            border: 'none',
+            borderRadius: '0.5rem',
+            cursor: 'pointer',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            transition: 'background-color 0.3s ease',
+          }}
+          onMouseEnter={e => e.currentTarget.style.backgroundColor = '#0ea5e9'}
+          onMouseLeave={e => e.currentTarget.style.backgroundColor = '#38bdf8'}
+        >
+          Proceed to Payment
+        </button>
       </div>
     </section>
   );
